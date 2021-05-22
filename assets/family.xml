@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<appdata>
+<row>
+<name>Mother</name>
+<nameta>அம்மா</nameta>
+<image>apple</image>
+<show>true</show>
+<custom>false</custom>
+<audio>ring</audio>
+</row>
+<row>
+<name>Father</name>
+<nameta>அப்பா</nameta>
+<image>orange</image>
+<show>true</show>
+<custom>false</custom>
+<audio>baby</audio>
+</row>
+<row>
+<name>Elder Sister</name>
+<nameta>அக்கா</nameta>
+<image>banana</image>
+<show>true</show>
+<custom>false</custom>
+<audio>whistle</audio>
+</row>
+<row>
+<name>Elder Brother</name>
+<nameta>அண்ணன்</nameta>
+<image>pomegranate</image>
+<show>true</show>
+<custom>false</custom>
+<audio>ring</audio>
+</row>
+<row>
+<name>Younger Sister</name>
+<nameta>தங்கை</nameta>
+<image>banana</image>
+<show>true</show>
+<custom>false</custom>
+<audio>whistle</audio>
+</row>
+<row>
+<name>Younger Brother</name>
+<nameta>தம்பி</nameta>
+<image>pomegranate</image>
+<show>true</show>
+<custom>false</custom>
+<audio>ring</audio>
+</row>
+<row>
+<name>Grand Mother</name>
+<nameta>பாட்டி</nameta>
+<image>papaya</image>
+<show>true</show>
+<custom>false</custom>
+<audio>baby</audio>
+</row>
+<row>
+<name>Grand Father</name>
+<nameta>தாத்தா</nameta>
+<image>grapes</image>
+<show>true</show>
+<custom>false</custom>
+<audio>ring</audio>
+</row>
+<row>
+<name>Uncle</name>
+<nameta>மாமா</nameta>
+<image>mango</image>
+<show>true</show>
+<custom>false</custom>
+<audio>ring</audio>
+</row>
+<row>
+<name>Aunty</name>
+<nameta>அத்தை</nameta>
+<image>papple</image>
+<show>true</show>
+<custom>false</custom>
+<audio>ring</audio>
+</row>
+</appdata>
