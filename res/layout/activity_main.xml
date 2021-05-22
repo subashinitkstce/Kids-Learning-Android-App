@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- EditText android:id="@+id/edit_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/edit_message" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/button_send"
+        android:onClick="sendMessage" / -->
+        <TableLayout  android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <!-- ImageButton
+            android:id="@+id/fruits"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/ic_fruits"
+        	android:onClick="loadFruits"
+        	android:background="@null"
+            android:layout_column="1"/>
+        <Button
+            android:id="@+id/vegetables"
+            android:layout_column="2"
+            android:text="Vegetables" / -->
+        <ImageView 
+			android:id="@+id/fruits"        
+			android:clickable="true"
+			android:src="@drawable/ic_fruits"
+			android:layout_width="wrap_content"
+      		android:layout_height="wrap_content" 
+      		android:layout_weight="1"
+      		android:layout_margin="3dip"
+			android:onClick="onClickHandler" />
+        <ImageView 
+			android:id="@+id/vegetables"        
+			android:clickable="true"
+			android:src="@drawable/ic_fruits"
+			android:layout_width="wrap_content"
+      		android:layout_height="wrap_content" 
+      		android:layout_weight="1"
+      		android:layout_margin="3dip"
+			android:onClick="onClickHandler" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/animals"
+            android:layout_column="1"
+            android:text="Animals" />
+        <Button
+            android:id="@+id/vegetables"
+            android:layout_column="2"
+            android:text="birds" />
+    </TableRow>
+    
+    </TableLayout>
+
+</LinearLayout>
